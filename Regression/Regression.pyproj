@@ -21,9 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Multiple Linear Regression\" />
     <Folder Include="Simple Linear Regression\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Multiple Linear Regression\Multiple_Linear_Regression.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Simple Linear Regression\Simple_Linear_Regression.py">
       <SubType>Code</SubType>
     </Compile>
